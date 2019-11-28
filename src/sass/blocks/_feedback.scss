@@ -1,0 +1,33 @@
+.feedback {
+    min-height: 1000px;
+    background-color: #ffffff;
+    margin-bottom: 71px;
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 70px;
+    }
+    &__image {
+        width: 169px;
+        margin-right: 72px;
+    }
+    &_title {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &_subtitle {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 3400;
+    }
+    &_text {
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+}
